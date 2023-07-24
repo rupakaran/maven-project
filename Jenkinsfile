@@ -4,6 +4,7 @@ pipeline {
             label workernode2
         }
     }
+    
     stages {
         stage('Checkout') {
             steps {
